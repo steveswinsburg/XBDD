@@ -68,5 +68,5 @@
 </html>
 
 <%
-	response.setStatus(response.SC_FORBIDDEN);
+	response.setStatus(HttpServletResponse.SC_FORBIDDEN);
 %>
